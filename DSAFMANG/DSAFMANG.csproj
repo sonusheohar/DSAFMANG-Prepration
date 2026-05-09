@@ -28,11 +28,6 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>README.md</DependentUpon>
     </Compile>
-    <Compile Update="Recursion\README.cs">
-      <DesignTime>True</DesignTime>
-      <AutoGen>True</AutoGen>
-      <DependentUpon>README.md</DependentUpon>
-    </Compile>
   </ItemGroup>
 
 </Project>
