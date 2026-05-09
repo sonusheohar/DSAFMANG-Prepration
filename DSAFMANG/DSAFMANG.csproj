@@ -12,6 +12,10 @@
       <Generator>TextTemplatingFilePreprocessor</Generator>
       <LastGenOutput>Readme.cs</LastGenOutput>
     </None>
+    <None Update="Recursion\README.md">
+      <LastGenOutput>Readme.cs</LastGenOutput>
+      <Generator>TextTemplatingFilePreprocessor</Generator>
+    </None>
   </ItemGroup>
 
   <ItemGroup>
@@ -20,6 +24,11 @@
 
   <ItemGroup>
     <Compile Update="BigO\README.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>README.md</DependentUpon>
+    </Compile>
+    <Compile Update="Recursion\README.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
       <DependentUpon>README.md</DependentUpon>
