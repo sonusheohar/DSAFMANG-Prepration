@@ -5,6 +5,6 @@ int[] arr = { 64, 25, 12, 22, 11 };
 Console.WriteLine("Original Array: " + string.Join(", ", arr));
 
 SortAlgorithm sortAlgorithm = new SortAlgorithm();
-var arrayResult=sortAlgorithm.SortingByBruteAlgorithm(arr);
+var arrayResult=sortAlgorithm.BubbleSortAlgorithm(arr);
 Console.WriteLine("Sorted Array: " + string.Join(", ", arrayResult));
 Console.ReadLine();
